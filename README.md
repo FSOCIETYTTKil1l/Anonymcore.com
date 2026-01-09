@@ -1,73 +1,78 @@
-# OSINT & AnonymCore Toolkit
+# OSINT & AnonymCore Web
 
-A comprehensive toolkit for OSINT (Open Source Intelligence) gathering and online anonymity. Designed for security researchers, pentesters, and privacy enthusiasts.
+A web-based toolkit for OSINT (Open Source Intelligence) and online anonymity. Built with HTML, CSS, and JavaScript, designed for privacy-focused users and security researchers.
 
 ---
 
 ## 🚀 Features
 
-- **OSINT Collection:** Gather information from social media, public records, and online sources  
-- **Anonymity Tools:** Browse and interact anonymously using integrated anonymization methods  
-- **Automated Reporting:** Generate structured reports from collected data  
-- **Customizable Modules:** Add or remove tools and scripts based on your workflow  
-- **Cross-Platform Support:** Works on Windows and Linux (Kali Linux recommended)
+- **OSINT Collection:** Collect information from public sources and social networks using the web interface  
+- **AnonymCore Integration:** Access anonymity tools directly from your browser  
+- **Interactive Dashboard:** Clean, modern UI for managing tasks and modules  
+- **Customizable:** Easy to add new scripts, modules, or UI components  
+- **Cross-Platform:** Works on Windows, Linux, and macOS via any modern browser  
 
 ---
 
 ## 💻 Requirements
 
-- **Operating System:** Windows 10/11 or Linux (Kali, Ubuntu recommended)  
-- **Python:** Version 3.11+  
-- **Dependencies:** Listed in `requirements.txt`  
-- **Administrator / Root:** Required for some anonymization tools  
+- Web Browser: Chrome, Firefox, or Edge (latest versions recommended)  
+- No server required for basic usage (static HTML/JS)  
+- Optional: Node.js for advanced automation scripts  
 
 ---
 
 ## ⚙️ Installation
 
-1. Clone the repository:
+1. Clone or download the repository:
    ```bash
-   git clone https://github.com/YourUsername/OSINT-AnonymCore.git
-   cd OSINT-AnonymCore
+   git clone https://github.com/YourUsername/OSINT-AnonymCore-Web.git
+   cd OSINT-AnonymCore-Web
    ```
-2. Install Python dependencies:
+2. Open `index.html` in your browser  
+3. Optional: Run a local web server for full functionality (recommended for advanced scripts)
    ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the toolkit:
-   ```bash
-   python main.py
+   npx http-server
    ```
 
 ---
 
 ## 🛠 Usage
 
-1. Launch the toolkit in a terminal or command prompt  
-2. Choose your desired module (OSINT or Anonymity tools)  
-3. Follow the interactive prompts  
-4. Export reports or logs as needed  
+1. Launch `index.html` in your preferred browser  
+2. Use the dashboard to select OSINT modules or anonymity tools  
+3. Execute tasks directly from the web interface  
+4. Export reports or logs in supported formats  
 
-> ⚠️ Always use responsibly and legally. This toolkit is intended for ethical security research only.
+> ⚠️ Only use this toolkit ethically and legally. Misuse can have legal consequences.
 
 ---
 
 ## 📦 Backup & Config
 
-- Save your configuration in `config.json`  
-- Restore previous settings easily for repeated tasks  
-- All sensitive data can be wiped using the built-in **cleanup** module  
+- Configuration is stored in `config.json` (if applicable)  
+- Easily restore previous settings  
+- Clear logs and sensitive data using the **cleanup module**  
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from the community!
+Contributions are welcome!  
 
 1. Fork the repository  
-2. Create a branch: `git checkout -b feature/YourFeature`  
-3. Commit your changes: `git commit -m "Add new module"`  
-4. Push your branch: `git push origin feature/YourFeature`  
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new module"
+   ```
+4. Push your branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
 5. Open a Pull Request  
 
 ---
@@ -80,12 +85,13 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## 🔗 Links
 
-- Repository: [https://github.com/YourUsername/OSINT-AnonymCore ](https://github.com/FSOCIETYTTKil1l/Anonymcore.com) 
-- Issues & Feedback: [https://github.com/YourUsername/OSINT-AnonymCore/issues ](https://github.com/FSOCIETYTTKil1l/Anonymcore.com) 
+- Repository: [https://github.com/YourUsername/OSINT-AnonymCore-Web ](https://github.com/FSOCIETYTTKil1l/Anonymcore.com) 
+- Issues & Feedback: [https://github.com/YourUsername/OSINT-AnonymCore-Web/issues](https://github.com/FSOCIETYTTKil1l/Anonymcore.com)  
 
 ---
 
 ## ⚠️ Disclaimer
 
-This software is provided **as-is**. The author is not responsible for any misuse.  
-Use only in compliance with local laws and regulations.
+This project is provided **as-is**.  
+The author is not responsible for any misuse.  
+Use only in accordance with laws and regulations.
